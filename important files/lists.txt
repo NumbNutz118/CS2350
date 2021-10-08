@@ -1,0 +1,44 @@
+<a>
+<img>
+</a>
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<table>
+<caption>
+Add your caption here
+</caption>
+
+<tr>
+    <th></th>
+    <th></th> 
+    <th></th>
+    <th></th>
+</tr>
+
+<tr>
+    <td></td> 
+    <td></td> 
+    <td></td> 
+    <td></td>
+</tr>
+
+<tr>
+    <td></td> 
+    <td></td> 
+    <td></td> 
+    <td></td>
+</tr>
+
+<tr>
+    <td></td> 
+    <td></td> 
+    <td></td> 
+    <td></td>
+</tr>
+
+</table>

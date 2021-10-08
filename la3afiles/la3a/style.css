@@ -1,0 +1,89 @@
+/* 
+Complementary Color Scheme
+Color   Greyed  Bold    Light   Lightest
+64858E  53656B  214F5C  9ABDC7  A6BFC7		bluish green
+E4C29E  AB9884  946433  F2D6BA  F2DEC9		peachy tan			
+*/
+
+body
+{
+    /*
+    background-color: #64858E;
+    background-image: url(images/wiseimg8.jpg);
+    background-repeat: repeat-x;
+    background-position:  ;
+    */
+    background: #64858E url(images/wiseimg8.jpg) repeat-x center top;
+    width: 840px;
+    margin: auto;
+}
+
+p.special
+{
+    background-color: #A6BFC7;
+    color: #946433;
+    text-align: left;
+    /*
+    border-style: double;
+    border-color: #E4C29E;
+    border-width: 10px;
+    */
+    border: #F2D6BA double 7px;
+    width: 5in;
+    padding: 10px 20px 20px 10px;
+    margin: 24px auto 24px auto;
+}
+
+p.special:hover
+{
+    background-color: #9ABDC7;
+}
+
+h1
+{
+    background-color: #E4C29E;
+    color: #53656B;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: #214F5C;
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: #F2DEC9;
+}
+
+table
+{
+    /*border: solid 3px #F2DEC9;*/
+    border-collapse: collapse;
+    margin: 24px 12px;
+}
+
+th,td
+{
+    border: solid 3px #F2DEC9;
+    padding: 5px;
+}
+
+img
+{
+    float: left;
+    margin: 0px 8px 12px 8px;
+}
+
+#navlist
+{
+    clear: left;
+}
+
+ul.homelist
+{
+    list-style-type: square;
+}
+

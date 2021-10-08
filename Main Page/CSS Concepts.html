@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Concepts</title>
+    <meta name="description" content="Webpage that talks about css concepts">
+    <meta name="keywords" content="css, css concepts, box model">
+    <meta name="author" content="Alex Whipple">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="resources/coding.png">
+    <link rel="stylesheet" type="text/css" href="resources/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/style_css.css">
+</head>
+<header>
+    <h1>The CSS Box Model</h1>
+  <body>
+    <nav class="navigation">
+    <ul>
+      <li>
+        <a href="index.html" title="Home page for cs 2350 assignments">Home</a>
+      </li>
+  
+      <li>
+        <a href="publishing.html" title="Web page about publishing a webpage">Publishing</a>
+      </li>
+  
+      <li>
+        <a href="CSS Concepts.html" title="Web page about CSS concepts">CSS Box Model</a>
+      </li>
+  
+      <li>
+        <a href="HW1_Drumming.html" title="Web page about drumming">Drumming</a>
+      </li>
+    </ul>
+    </nav>
+  </header>
+    
+    <img src="resources/css-box-model.png" alt="image of css box model" width="400" height="232">
+    <p>
+        The image above is the css box model. It has 4 parts to it. At the center is your content. This could be words, a paragraph, or even a photo. The second layer is padding. This is the blank space between the content and the next layer the border. Border's aren't needed but borders can be different sizes, different looks, and different colors to add variety to your webpages. The final layer is the margin. This is the blank space between the border, and either the edge of the webpage or more content on the page like paragraphs or other photos.
+    </p>
+
+    <h2>Padding</h2>
+    <div class="padding1">
+        <p>Padding Same Size 64 pixels</p>
+        <p>
+            All the padding is the same size here. As you can see on all sides of the text the border is the same distance away. This is the padding. Sizes can change depending on how you want your content to be displayed.
+        </p>
+    </div>
+
+    <div class="padding2">
+        <p>Top and Bottom different than Left and Right</p>
+        <p>
+            In this example the top and bottom are the same size padding at 12 pixels, and the right and left are the same at 64 pixels. You can see that the top and bottom are much smaller compared to the last example.
+        </p>
+
+    </div>
+
+    <div class="padding3">
+        <p>All sides different</p>
+        <p>
+            In this example all the sides are different sized padding. You can see that the right side is the largest followed by the bottom, with the left side barely being bigger than the top. These 3 examples show how padding can change how your webpage looks with certain content.
+        </p>
+    </div>
+
+    <h2>Margins</h2>
+
+    <div class="margin1">
+        <p>No margin changes</p>
+        <p>
+            In this examples there are no margin changes. It's hard to tell what no changes look like without something to compare it to so you'll see in the next examples what the margin changes.
+        </p>
+    </div>
+
+    <div class="margin2">
+        <p>Left margin at 50 pixels</p>
+        <p>
+            In this example you see that the left sides of the border is pushed in a little bit. That's the left margin. The distance between the border and the edge of the webpage.
+        </p>
+    </div>
+
+    <div class="margin3">
+        <p>Left margin at 160</p>
+        <p>
+            In this final example you can see that the left margin is even bigger. Using this you can move things where you want them to go. Of course you can change the top bottom and right margins too, but this example is only showing the left margin.
+        </p>
+    </div>
+
+    <p>
+        You can also see in these margin examples that the text is really close to the border. That's where you can combine padding and margin to get you content to where you want.
+    </p>
+
+    <h2>Hovering</h2>
+
+    <p>
+        Hovering is really cool in css. This is when you just hover the mouse over content. No clicking just hovering. You can change color of the background, scale, rotate, basically anything to the content. You can also adjust how long it takes for the transition to happen. Below are some examples of what you can do with hovering.
+    </p>
+
+    <div class="hover1">
+        <p>No change</p>
+        <p>
+            There is no change to hovering in this example. This is just what the default hover is. Nothing.
+        </p>
+    </div>
+
+    <div class="hover2">
+        <p>Color change</p>
+        <p>
+            In this example when you hover over this content you'll see that the color of the background changes. And you can also see it takes 4 seconds to do so which is really cool to do.
+        </p>
+    </div>
+
+    <div class="hover3">
+        <p>Size change</p>
+        <p>
+            In this example when you hover over this content you'll see that the width changes. You can add this if you just want some style to your page. One issue with this is you see that the text moves with it, so it's hard to read along when using text.
+        </p>
+    </div>
+
+    <h2>Color Contrast</h2>
+
+    <table>
+        <tr>
+            <th>Text</th>
+            <th>Background Color</th>
+            <th>Text Color</th>
+            <th>Contrast Ratio</th>
+            <th>Rating</th>
+        </tr>
+
+        <tr>
+            <td class="table1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+            <td>#000000</td>
+            <td>#FFFFFF</td>
+            <td>21:1</td>
+            <td>Pass AAA</td>
+        </tr>
+
+        <tr>
+            <td class="table2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+            <td>#B3DBFF</td>
+            <td>#2E3CFF</td>
+            <td>4.52:1</td>
+            <td>PASS AA</td>
+        </tr>
+
+        <tr>
+            <td class="table3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+            <td>#FF4DEA</td>
+            <td>#EBA3FF</td>
+            <td>1.49:1</td>
+            <td>None</td>
+        </tr>
+
+        <tr>
+            <td class="table4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+            <td>#D6FFAD</td>
+            <td>#157A18</td>
+            <td>4.9:1</td>
+            <td>Pass AA</td>
+        </tr>
+
+        <tr>
+            <td class="table5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+            <td>#E69F05</td>
+            <td>#FF7A7A</td>
+            <td>1.12:1</td>
+            <td>None</td>
+        </tr>
+    </table>
+
+    <h2>Position</h2>
+    <h3>Relative Position</h3>
+    <p>
+        Relative positioning is position based off of it's normal position. So where it is placed in the html file is the normal position, and any adjustments you make will change it based on that position. It's hard to tell but the image below was moved 40 pixels from the left, and 20 pixels from the top from where it originally started. This effect is similar to margin changing.
+    </p>
+    <img src="resources/css_opt.png" alt="photo of logos of html css and js" class="relative">
+
+    <h3>Absolute Position</h3>
+    <p>
+        Absolute positioning is based off of it's closest ancestor. But if the content does not have an ancestor it uses the document body as the positioning. So as you can see the image is at the top instead of where it should be.
+    </p>
+    <img src="resources/programming_opt.jpg" alt="image of code on a screen" class="absolute">
+
+    <h3>Fixed Position</h3>
+    <p>
+        Fixed positioning is based off of the viewport, or the window. You must tell the image where to go on the screen and it will stay at that position. You can see the image is staying in the top right no matter if you scroll or what you do.
+    </p>
+    <img src="resources/programming2_opt.png" alt="cartoon photo of programming on a pc" class="fixed">
+
+    <p>
+        One thing you can see with the absolute and fixed positions are the images can cover up other content when scrolling or resizing the screen. So be careful with these positionings to make sure they don't block content.
+    </p>
+
+    <h2>Shadows</h2>
+    <p>
+        Shadows are a really cool part of websites that can make things stand out on the webpage. There are 3 important parts to shadows which are the horizontal property, the vertical property, and the blur property.
+    </p>
+
+    <h3>Horizontal Property</h3>
+    <p>
+        The horizontal property is how far the shadow goes left to right. Default numbers cause the shadow to go right. With a negative value that will cause the value to go left.
+    </p>
+
+    <h3>Vertical Property</h3>
+    <p>
+        The vertical property is how far the shadow goes up to down. Default numbers cause the shadow to go down. With a negative value that will cause the value to go up. Combined with the horizontal property the light will appear default to be top left. You can change that with a mix of negative numbers.
+    </p>
+    <h3>Blur Property</h3>
+    <p>
+        The blur property is how blurry the shadow is. A 0px blur value will be no blue at all. It will be an exact copy of the content at a different position based on the other properties. A bigger value will be more blur. So depending on how blurry you want the shadow to look, this value will be changed.
+    </p>
+    <h2 class="shadow">SHADOWS</h2>
+    <p>
+        You can see the example above the shadow is farther right than down due to a larger right value than down value, along with slight blur due to a smaller number at 3px.
+    </p>
+
+</body>
+
+</html>

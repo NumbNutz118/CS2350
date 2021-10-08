@@ -1,0 +1,40 @@
+Common Style Decisions for Website
+
+color scheme:
+#052b60 
+#0b57c0  
+#041E42 - Blue
+#3e8af3  
+#9ec4f9  
+
+#155042 
+#2aa185 
+#AFEADC - mint
+#5dd4b8 
+#aee9db 
+
+background color/image: 
+white - #FFFFFF
+
+
+font style:
+Butler 
+
+
+text color:
+Gray - #606060
+
+
+link style: 
+#aabd0e - text color
+#333333 - background
+
+link style on hover:
+#aabd0e - background
+#333333 - text color
+2 seconds
+
+h1-h6 style:
+#555e07
+
+

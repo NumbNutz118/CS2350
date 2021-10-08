@@ -1,0 +1,55 @@
+@font-face {
+    font-family: butler;
+    src: url(Butler_Regular.otf);
+}
+
+header
+{
+    padding-top: 10px;
+    background-color: #041E42;
+    color: #5dd4b8;
+    text-align: left;
+    height: 230px;
+    padding-left: 30px;
+    font-size: 28px;
+    border-radius: 20px;
+    font-family: butler;
+}
+
+nav ul
+{
+    list-style-type: none;
+    float: right;
+    padding-right: 20px;
+}
+
+nav a:link, a:visited
+{
+   background: #AFEADC;
+   color: #041E42 ; 
+   display: block;
+   height: 46px;
+   width: 180px;
+   line-height: 46px;
+   border: #041E42 solid 2px;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 24px;
+   font-size: 23px;
+   font-weight: bolder;
+}
+
+nav li
+{
+  display: inline-block;
+}
+
+nav a:hover
+{
+    background: #041E42;
+    color: #AFEADC;
+    transition: .5s;
+    border-color: #AFEADC;
+}
+
+

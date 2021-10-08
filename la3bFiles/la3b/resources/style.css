@@ -1,0 +1,79 @@
+/*Color scheme
+orange  #FF7F5E  
+blue    #5E73B2  #9FB6FF (light)
+green   #82B246  #9ECC65 (light)
+gray    #333  #777  #CCC (light)  
+white   #FFF 
+*/
+
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Regular.ttf);
+}
+
+h2 {
+  color: #5E73B2;
+}
+
+.leading 
+{
+  text-align: center;
+  width: 520px;
+  margin: auto;
+  border: #FF7F5E solid 2px;
+  padding: 12px 15px;
+  font-family: roboto;
+  box-shadow: 8px 4px 12px #777, -4px -2px 6px #777;
+  border-radius: 24px 0px 24px 0px;
+}
+
+.leading h3
+{
+  text-shadow: 4px 4px 2px #CCC;
+}
+
+.article {
+  box-shadow: 4px 4px 8px #CCC;
+}
+
+.testing {
+  border-radius: 24px;
+}
+
+.distributed {
+ position: static;
+ transform: rotate(30deg);
+}
+
+.interleaved {
+  position: relative;
+  left: 120px;
+  top: 10px;
+  transform: skewX(30deg);
+}
+
+.interrogation {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  transition: transform 2s;
+  
+}
+
+.interrogation:hover
+{
+  transform: scale(1.5);
+  top: 50px;
+  right: 75px;
+}
+
+.explain {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+.explanation
+{
+  position: relative;
+}

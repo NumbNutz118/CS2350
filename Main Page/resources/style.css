@@ -52,4 +52,107 @@ nav a:hover
     border-color: #AFEADC;
 }
 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
+[class*="col-"]
+{
+  float: left;
+  padding: 15px;
+}
+
+.row::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+main section
+{
+  border: 1px solid #041E42;
+  box-shadow: 4px 4px 12px #041E42, -4px -4px 12px #041E42;
+  border-radius: 12px;
+  margin: 48px 0px;
+  padding: 12px;
+  transition: box-shadow 1s;
+}
+
+main section:hover
+{
+  box-shadow: 8px 8px 24px #052b60, -8px -8px 24px #052b60;
+}
+
+main section h2
+{
+  padding-top: 24px;
+}
+
+main section img
+{
+  float: right;
+  margin-right: 24px;
+  margin-bottom: 18px;
+}
+
+main section p
+{
+  clear: both;
+}
+
+aside
+{
+    background-color: #041E42;
+    padding: 8px;
+    color: #AFEADC;
+}
+
+aside img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+aside h2
+{
+  text-align: center;
+}
+
+aside h3
+{
+  padding: 12px;
+}
+
+aside hr
+{
+  width: 80%;
+  border: 3px #AFEADC groove;
+  border-radius: 3px;
+}
+
+footer a
+{
+  font-size: 1.2em;
+}
+
+footer a:link, a:visited
+{
+  text-decoration: none;
+  color: #041E42;
+  padding: 10px;
+}
+
+.navi
+{
+    text-align: center;
+}

@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: butler;
+  src: url(Butler_Regular.otf);
+}
+
+[class*='col-']
+{
+  width: 100%;
+}
+
+
+header {
+  background-color: #041E42;
+  height: 200px;
+  color: #5dd4b8;
+  text-align: left;
+  border-radius: 20px 20px 0 0;
+  font-family: butler;
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+header h1
+{
+  padding-left: 30px;
+}
+
+header h1 span
+{
+  display: none;
+}
+
+nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li 
+{
+  display: inline-block;
+  width: 100%;
+}
+
+nav button
+{
+  font-family: butler;
+}
+
+nav a, nav a:link, nav a:visited, nav button 
+{
+  display: block;
+  background: #041E42;
+  color: #AFEADC ;
+  padding: 12px;
+  border-top: #AFEADC solid 2px;
+  border-bottom: #AFEADC solid 2px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bolder;
+  width: 100%;
+}
+
+nav a:hover, nav button:hover
+{
+  background: #AFEADC;
+  color: #041E42;
+  border-color: #041E42;
+  transition: 1s;
+}
+
+nav .dropdown
+{
+  position: relative;
+}
+
+nav .dropdown-content
+{
+  position: absolute;
+  display: none;
+  width: 100%;
+}
+
+nav .dropdown:hover .dropdown-content
+{
+  display: block;
+}
+
+main section {
+  margin: 48px 0px;
+  border: 2px solid #041E42;
+  padding: 12px;
+  box-shadow: 4px 4px 12px #041E42, -4px -4px 12px #041E42;
+  border-radius: 12px;
+  transition: box-shadow .5s;
+}
+
+main section:hover
+{
+  box-shadow: 8px 8px 24px #052b60, -8px -8px 24px #052b60;
+}
+
+main section h2
+{
+  font-size: xx-large;
+  font-family: butler;
+  padding-top: 24px;
+}
+
+main section img
+{
+  float: right;
+  margin: auto;
+}
+
+main section p
+{
+  clear: both;
+}
+
+aside {
+  background-color: #041E42;
+  padding: 8px;
+  color: #AFEADC;
+}
+
+aside h3 {
+  padding: 12px;
+}
+
+aside img 
+{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin:auto;
+}
+
+aside hr
+{
+  width: 80%;
+  border: 3px #AFEADC groove;
+  border-radius: 3px;
+}
+
+footer 
+{
+padding-bottom: 12px;
+text-align: center;
+}
+
+footer a
+{
+  font-size: 1.2em;
+}
+
+footer a:link, a:visited
+{
+  text-decoration: none;
+  color: #041E42;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px)
+{
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+
+  nav li
+  {
+    width: 180px;
+  }
+
+  nav ul
+  {
+    background: #041E42;
+    text-align: center;
+  }
+
+  nav a, nav a:link, nav a:visited, nav button {
+    padding-left: 12px;
+    color: #AFEADC;
+    margin: 0 -2px;
+    border: none;
+  }
+
+  nav a:hover 
+  {
+    color: #041E42;
+  }
+}
+
+@media only screen and (min-width: 1120px)
+{
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  body
+  {
+    max-width: 1920px;
+    margin: auto;
+    padding: 24px 48px;
+  }
+
+  header {
+    background-color: #041E42;
+    height: 200px;
+    color: #5dd4b8;
+    text-align: left;
+    border-radius: 20px 20px 0 0;
+    font-family: butler;
+    padding-top: 10px;
+    font-size: 24px;
+  }
+
+  nav
+  {
+    margin-top: -60px;
+  }
+
+  nav ul 
+  {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  nav li
+  {
+    width: 200px;
+  }
+
+  nav a, nav a:link, nav a:visited, nav button 
+  {
+    background: #AFEADC;
+    color: #041E42 ;
+    height: 48px;
+    border: #041E42 solid 2px;
+    border-radius: 24px;
+  }
+
+  nav a:hover, nav button:hover 
+  {
+    background: #041E42;
+    color: #AFEADC;
+    border-color: #AFEADC;
+    transition: .5s;
+  }
+
+  main section img
+  {
+    margin-right: 24px;
+    margin-bottom: 18px;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

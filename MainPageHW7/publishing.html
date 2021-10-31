@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Publishing</title>
+
+    <meta name="description" content="Main page to the Exploring Science website">
+    <meta name="keywords" content="WISE telescope, scientific method">
+    <meta name="author" content="Linda DuHadway and ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="resources/coding.png">
+    <link rel="stylesheet" type="text/css" href="resources/style.css">
+</head>
+<header>
+    <h1>Publishing A Webpage</h1>
+  </header>
+  <body>
+    <nav class="navigation">
+    <ul>
+      <li>
+        <a href="index.html" title="Home page for cs 2350 assignments">Home</a>
+      </li>
+  
+      <li>
+        <a href="publishing.html" title="Web page about publishing a webpage">Publishing</a>
+      </li>
+  
+      <li>
+        <a href="CSS_Concepts.html" title="Web page about CSS concepts">CSS Box Model</a>
+      </li>
+  
+      <li>
+        <div class="dropdown">
+          <button>
+            More &#9660
+          </button>
+          <div class="dropdown-content">
+          <a href="HW1_Drumming.html" title="Web page about drumming">Drumming</a>
+          <a href="CSS_Concepts.html" title="Web page about CSS concepts">Coming Soon</a>
+        </div>
+        </div>
+      </li>
+    </ul>
+    </nav>
+ 
+    
+
+    <h2>How to upload to the Icarus Web server</h2>
+    <p>
+        When uploading a webpage to the web, you'll first need a hosting service. I'll be using the Icarus Web Server
+        hosting. You'll also need a ftp tool. I'll be using PuTTY to connect to the server and using Cyberduck to
+        transfer files.<br>
+
+        Putty can be found <a href="https://www.putty.org/" title="download for putty" target="_blank">here.</a><br>
+        Cyberduck can be found <a href="https://cyberduck.io/" title="download for cyberduck" target="_blank">here.</a>
+    </p>
+
+    <h3>Logging into the Icarus Server</h3>
+    <img src="resources/putty_connect.png" alt="image for the connect window on putty" width="400" height="392">
+    <p>
+        When logging into the server with PuTTY you'll need to connect to the correct host name. That name being
+        icarus.cs.weber.edu as seen in the photo above, as well as the correct port number being 22. Once you hit enter
+        or open at the bottom, it will ask you to sign in. Your username will be your initials followed by the last 5
+        digits of your W number. Your password will be your full first name with the first letter capitalized, followed
+        by "cs!"
+    </p>
+    <p>
+        For example, if your name was John Smith with the W number W01234567 then your username would be js34567. and
+        your password would be Johncs!
+    </p>
+
+    <h3>Using Cyberduck to transfer files</h3>
+    <img src="resources/cyberduck_open.PNG" alt="image to show where to open a connection in cyberduck" width="400" height="188">
+    <p>
+        To connect to the server in Cyberduck you will click the open connection button as seen above. After that you will be prompted to connect to a server, along with your login information. The login information will be the same as it was for PuTTY. Initials followed by the last 5 numbers of your W number for your username, and your first name with the first letter capitalized with "cs!" at the end for your password.
+    </p>
+
+    <img src="resources/open_connection.png" alt="image to show the login screen for cyberduck connecting" width="400" height="274">
+
+    <p>
+        You will need to connect to the server. Again it will be icarus.cs.weber.edu for the server name. Make sure it's on Port 22, and make sure the drop down menu at the top is set to SFTP otherwise this will not work. If a window pops up and says Unknown fingerprint, just hit allow.<br>
+        After doing all of the above just hit connect and it will show a public_html folder. This is where you'll upload your files.
+    </p>
+
+    <h3>Uploading Files</h3>
+    <p>
+        When uploading things to the icarus server, make sure all of your files go inside of the public_html folder. This can be done by either double clicking on the folder to open it, or uploading the files, and moving them in after. To start uploading files/folder you'll click the Upload button as shown below.
+    </p>
+    
+    <img src="resources/uploading.png" alt="image to show where to upload files to the server" width="400" height="52">
+    <br>
+    <img src="resources/uploading_folder.png" alt="image to show how to upload folders to the server" width="400" height="308">
+    
+    <p>
+        To upload a folder you'll the click once on the folder until it is highlighted, and click choose at the bottom to upload it. This will upload it into the icarus server. Make sure this folder is inside the public_html folder.
+    </p>
+
+    <img src="resources/uploading_file.png" alt="image to show how to upload files to the server" width="400" height="308">
+
+    <p>
+        To upload separate files it's the same as folder, but you'll double click on each folder until you find the file or folder you want. You can then drag to select several items, or hold shift and click several items, or just choose one file. It will show up in the box above choose, and you'll click choose and it will upload.
+    </p>
+
+    <h2>Composing the URL</h2>
+    <p>
+        To compose the URL for your webpage it fairly simple. You'll first type in the server name, in our case it's icarus.cs.weber.edu with a forward slash. After you'll enter in the folder name (if there is one) with another forward slash. If your webpage is embeded inside several folder's you'll keep adding the folder names after the first until you reach the folder your webpage is in. After you will type in the main page for your webiste followed by .html and that is your website.
+    </p>
+
+    <img src="resources/compose_url_opt.png" alt="photo illustrating how to make a url from the server" width="400" height="348">
+
+    <p>
+        Based on the photo above, and index.html being my home page, I'll first start by typing icarus.cs.weber.edu/ followed by la2/ for the folder it's in, followed by index.html<br>
+        So the entire URL would be icarus.cs.weber.edu/la2/index.html and that would connect to that webpage.
+    </p>
+
+    <footer>
+      <div>
+        <a href="index.html" title="Home page for cs 2350 assignments">Home</a>
+        <a href="publishing.html" title="Web page about publishing a webpage">Publishing</a>
+        <a href="CSS Concepts.html" title="Web page about CSS concepts">CSS Box Model</a>
+        <a href="HW1_Drumming.html" title="Web page about drumming">Drumming</a>
+      </div>
+      <hr>
+      </footer>
+</body>
+
+</html>

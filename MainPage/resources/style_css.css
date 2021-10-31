@@ -1,0 +1,130 @@
+html
+{
+    background-color: #aee9db;
+}
+
+body
+{
+    background-color: white;
+    width: 94%;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+[class^="padding"]
+{
+    background-color: #e9d2f3;
+    border: #000000 double 5px;
+    width: 500px;
+}
+
+.padding1
+{
+    padding: 64px;
+}
+
+.padding2
+{
+    padding: 12px 64px;
+}
+
+.padding3
+{
+    padding-top: 0px;
+    padding-bottom: 48px;
+    padding-right: 96px;
+    padding-left: 32px;
+}
+
+[class^="margin"]
+{
+    background-color: #cbeafc;
+    border: black groove 5px;
+    width: 400px;
+}
+
+.margin2
+{
+    margin-left: 50px;
+}
+
+.margin3
+{
+    margin-left: 160px;
+}
+
+[class^="hover"]
+{
+    background-color: #c8ffcb;
+    border: black dotted 5px;
+    width: 400px;
+}
+
+.hover2:hover
+{
+    background-color: #20d3ac;
+    transition: 4s;
+}
+
+.hover3:hover
+{
+    width: 600px;
+    transition: 2s;
+}
+
+.table1
+{
+    background-color: #000000;
+    color: white;
+}
+
+.table2
+{
+    background-color: #B3DBFF;
+    color: #2E3CFF;
+}
+
+.table3
+{
+    background-color: #FF4DEA;
+    color: #EBA3FF;
+}
+
+.table4
+{
+    background-color: #D6FFAD;
+    color: #157A18;
+}
+
+.table5
+{
+    background-color: #E69F05;
+    color: #FF7A7A;
+}
+
+.relative
+{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.absolute
+{
+    position: absolute;
+    bottom: 30px;
+    right: 15%;
+}
+
+.fixed
+{
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+}
+
+.shadow
+{
+    color: rgb(243, 140, 43);
+    text-shadow: rgb(78, 78, 78) 8px 3px 3px;
+}

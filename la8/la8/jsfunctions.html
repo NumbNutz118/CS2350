@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+
+<title>Learning JavaScript</title>
+
+<meta name="description" 
+content="Learning a variey of things you can do with JavaScript">
+<meta name="keywords" 
+content="JavaScript, functions, buttons, variables, operators">
+<meta name="author" content= "Linda DuHadway">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="jsstyle.css">
+</head>
+
+<body>
+
+<h1>Using buttons, functions, and the onclick Event</h1>
+
+<h2 id="hello">Hello</h2>
+  
+<section>
+<h2>Pet Greeting</h2>
+<p>
+    <label for="petInput"> Enter your pet name: </label>
+    <input type="text" id="petInput">
+</p>
+    <button id="petButton" onclick="printPetMessage()">Submit Name</button>
+    <h3 id="petMessage">&nbsp;</h3>
+</section>
+
+<section>
+<h2>Compute Area</h2>
+<p>
+    <label for="width"> Enter width: </label>
+    <input type="text" id="width">
+</p>
+<p>
+    <label for="height"> Enter height: </label>
+    <input type="text" id="height">
+</p>
+<button id="computeButton" onclick="computeArea()">Compute Area</button>
+<h3 id="Area">&nbsp;</h3>
+
+</section>
+
+<section>
+<h2>Compute Sum</h2>
+<p>
+    <label for="first"> Enter first value: </label>
+    <input type="text" id="first">
+</p>
+<p>
+    <label for="second"> Enter second value: </label>
+    <input type="text" id="second">
+</p>
+<button id="buttonSum" onclick="computeSum()">Compute Sum</button>
+<h3 id="sum">&nbsp;</h3>
+  
+</section>
+
+<section>
+<h2>Convert Temperature</h2>
+<p>
+    <h3>Fahrenheit to Celcius</h3>
+    <label for="fahr">Enter Fahrenheit: </label>
+    <input type="text" id="fahr">
+</p>
+<p>
+    <h3>Celcius to Fahrenheit</h3>
+    <label for="cels">Enter Celsius: </label>
+    <input type="text" id="cels">
+</p>
+<button id="buttonConvert" onclick="convertTemp()">Compute Temperature</button>
+<h3 id="convert">&nbsp;</h3>
+  
+</section>
+<script src="functions.js"></script>
+</body>
+</html>
+

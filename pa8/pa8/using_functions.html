@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+
+<title>Learning JavaScript</title>
+
+<meta name="description" 
+content="Learning a variey of things you can do with JavaScript">
+<meta name="keywords" 
+content="JavaScript, functions, buttons, variables, operators">
+<meta name="author" content= "Linda DuHadway">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="jsstyle.css">
+</head>
+
+<body>
+
+<h1>Using buttons, functions, and the onclick Event</h1>
+
+  
+<section>
+<h2>Build a Menu</h2>
+
+<div class="row">
+<div class="input col-8">
+    <p>
+        <label for="main">Enter a main dish: </label>
+        <input type="text" id="main">
+    </p>
+    <p>
+        <label for="side1">Enter a side dish: </label>
+        <input type="text" id="side1">
+    </p>
+    <p>
+        <label for="side2">Enter a side dish: </label>
+        <input type="text" id="side2">
+    </p>
+
+
+</div>
+<div class="button col-4">
+    <button id="menuButton" onclick="printMenu()">Print Menu</button>
+
+
+</div>
+</div>
+
+<h3 id="menu">Menu</h3>
+</section>
+
+
+<section>
+<h2>Average Quiz Scores</h2>
+
+<div class="row">
+<div class="input col-8">
+    <p>
+        <label for="quiz1">Enter the score for Quiz 1: </label>
+        <input type="text" id="quiz1">
+    </p>
+    <p>
+        <label for="quiz2">Enter the score for Quiz 2: </label>
+        <input type="text" id="quiz2">
+    </p>
+    <p>
+        <label for="quiz3">Enter the score for Quiz 3: </label>
+        <input type="text" id="quiz3">
+    </p>
+
+</div>
+<div class="button col-4">
+    <button id="quizButton" onclick="computeAverage()">Compute Average</button>
+
+</div>
+</div>
+
+<h3 id="average">Average</h3>
+</section>
+
+<section>
+<h2>Volume of a Sphere</h2>
+
+<div class="row">
+<div class="input col-8">
+<p>
+    <label for="radius">Enter the radius of the sphere: </label>
+    <input type="text" id="radius">
+</p>
+
+</div>
+<div class="button col-4 short">
+    <button id="volumeButton" onclick="computeVolume()">Compute Volume</button>
+
+
+</div>
+</div>
+
+<h3 id="volume">Volume</h3>
+</section>
+<script src="functions.js"></script>
+</body>
+</html>
+

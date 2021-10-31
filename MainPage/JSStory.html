@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>JS Story</title>
+
+  <meta name="description" content="Webpage to create a madlibs-style story">
+  <meta name="keywords" content="madlibs, create a story, story">
+  <meta name="author" content="Alex Whipple ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="resources/png" href="resources/coding.png">
+  <link rel="stylesheet" type="text/css" href="resources/style.css">
+</head>
+
+<header>
+    <h1>JavaScript Story</h1>
+  </header>
+  
+  <body>
+    <nav>
+    <ul>
+      <li>
+        <a href="index.html" title="Home page for cs 2350 assignments">Home</a>
+      </li>
+  
+      <li>
+        <a href="publishing.html" title="Web page about publishing a webpage">Publishing</a>
+      </li>
+  
+      <li>
+        <a href="CSS_Concepts.html" title="Web page about CSS concepts">CSS Box Model</a>
+      </li>
+      <li>
+        <div class="dropdown">
+          <button>
+            More &#9660
+          </button>
+          <div class="dropdown-content">
+          <a href="HW1_Drumming.html" title="Web page about drumming">Drumming</a>
+          <a href="CSS_Concepts.html" title="Web page about CSS concepts">Coming Soon</a>
+          <a href="JSStory.html" title="Webpage to create a madlibs style story">JavaScript Story</a>
+        </div>
+        </div>
+      </li>
+    </ul>
+    </nav>
+
+<body class="java">
+<h3>Enter the specified words to create a story</h3>
+<div class="row">
+<div class="col-12 col-m-12">
+<p>
+    <label for="name1">Enter a name: </label>
+    <input type="text" id="name1">
+</p>
+<p>
+    <label for="name2">Enter another name: </label>
+    <input type="text" id="name2">
+</p>
+<p>
+    <label for="name3">Enter a third name: </label>
+    <input type="text" id="name3">
+</p>
+<p>
+    <label for="adjective">Enter an adjective: </label>
+    <input type="text" id="adjective">
+</p>
+<p>
+    <label for="adjective2">Enter another adjective: </label>
+    <input type="text" id="adjective2">
+</p>
+<p>
+    <label for="verb">Enter a verb: </label>
+    <input type="text" id="verb">
+</p>
+<p>
+    <label for="verb2">Enter another verb: </label>
+    <input type="text" id="verb2">
+</p>
+<p>
+    <label for="verb3">Enter a third verb: </label>
+    <input type="text" id="verb3">
+</p>
+<p>
+    <label for="noun1">Enter a noun: </label>
+    <input type="text" id="noun1">
+</p>
+<p>
+    <label for="noun2">Enter another noun: </label>
+    <input type="text" id="noun2">
+</p>
+<p>
+    <label for="noun3">Enter a third noun: </label>
+    <input type="text" id="noun3">
+</p>
+<p>
+    <label for="noun4">Enter a fourth noun: </label>
+    <input type="text" id="noun4">
+</p>
+<p>
+    <label for="adverb1">Enter an adverb: </label>
+    <input type="text" id="adverb1">
+</p>
+<p>
+    <label for="adverb2">Enter another adverb: </label>
+    <input type="text" id="adverb2">
+</p>
+
+<button class="javaButton" id="submitButton" onclick="submitWords(); showImage()">Submit words</button>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 col-m-12">
+<h2>Story</h2>
+<div class="story">
+<p id="image1">&nbsp;</p>
+<p id="par1">&nbsp;</p>
+<p id="par2">&nbsp;</p>
+<p id="image2">&nbsp;</p>
+</div>
+</div>
+</div>
+
+<script src="story.js"></script>
+</body>
+</html>
